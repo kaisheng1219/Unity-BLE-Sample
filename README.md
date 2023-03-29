@@ -19,6 +19,8 @@ AdvertiseData data = new AdvertiseData.Builder()
                 .build();
 ```
 
+---
+
 ## Unity Android 
 This folder contains the sample codes to invoke the methods in the plugin in Unity and also a manifest file to request for certain permissions
 
@@ -29,6 +31,8 @@ This folder contains the sample codes to invoke the methods in the plugin in Uni
 Callbacks are executed in a separate thread in Unity, meaning no UI elements can be called in that thread as they only run in the main thread.
 To execute UI calls, u may pass the actions into the MainThread class.
 ``
+
+---
 
 ## Unity UWP
 This folder contains the Bluetooth script and the MainThread script
