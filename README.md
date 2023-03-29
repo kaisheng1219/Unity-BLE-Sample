@@ -1,6 +1,9 @@
 # Unity-BLE-Sample
 Unity UWP BLE scripts &amp; Android Plugin sample
 
+---
+<br />
+
 ## UnityBlePlugin
 This folder contains the source codes for the Android BLE plugin
 
@@ -20,6 +23,7 @@ AdvertiseData data = new AdvertiseData.Builder()
 ```
 
 ---
+<br />
 
 ## Unity Android 
 This folder contains the sample codes to invoke the methods in the plugin in Unity and also a manifest file to request for certain permissions
@@ -33,6 +37,7 @@ To execute UI calls, u may pass the actions into the MainThread class.
 ``
 
 ---
+<br />
 
 ## Unity UWP
 This folder contains the Bluetooth script and the MainThread script
